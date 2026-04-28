@@ -11,7 +11,7 @@ def remove_elements(lista):
     Returns:
         La lista después de remover los elementos indicados
     """
-        if len(lista) == 6:
+    if len(lista) == 6:
         del lista[-2]
         del lista[-1]
         del lista[0]
